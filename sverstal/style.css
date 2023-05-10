@@ -1,0 +1,591 @@
+@font-face {
+    font-family: vesna ;
+    src: url();
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    margin:0;
+}
+
+.header_container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+}
+.katalog{
+    position: absolute;
+    height: 21px;
+    left: 791px;
+    right: 1055.9px;
+    top: 24px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #886788;
+    
+}
+
+.dost{
+    position: absolute;
+    height: 21px;
+    left: 913.52px;
+    right: 917.93px;
+    top: 25px;
+
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #886788;
+
+}
+
+.kont{
+    position: absolute;
+    height: 21px;
+    left: 1050.46px;
+    right: 781px;
+    top: 24px;
+
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #886788;
+}
+.vkontakte{
+    position: absolute;
+    height: 41px;
+    left: 1679px;
+    right: 200px;
+    top: 15px;
+}
+
+.inst{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 1731px;
+top: 16px;
+}
+
+.tik{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 1782px;
+top: 16px;
+}
+.logo{
+    width: 124px;
+    height: 32px;
+    left: 95px;
+    top: 20.21px;
+}
+.main{
+    background: url(..//sverstal/img/scale_1200\ 1.jpg);
+    box-shadow: inset 0px 4px 4px 914px rgba(0, 0, 0, 0.45);
+    min-height: 1010px;
+    background-size: cover;
+    background-position: top center;
+}
+
+.big_list{
+    position: absolute;
+    height: 302px;
+    left: 413px;
+    right: 438px;
+    top: 389px;
+        
+    font-family: "pangolin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 160px;
+    text-align: center;
+        
+    color: #FFFFFF;
+
+}
+
+.vector {
+    position: absolute;
+    height: 61.95px;
+    left: 1019px;
+    right: 783px;
+    top: 878.46px;
+
+    background: #FFFFFF;
+    transform: rotate(-180deg); 
+}
+
+.katacheck{
+    position: absolute;
+    height: 113px;
+    left: 833px;
+    right: 839px;
+    top: 1130px;
+    
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 121px;
+    text-align: center; 
+    color: #886788;
+}
+
+.strelka{
+    display: flex;
+    justify-content: center;
+    padding-top: 800px;
+    
+}
+
+.kotialog{
+    position: absolute;
+    height: 113px;
+    left: 833px;
+    right: 839px;
+    top: 1130px;
+
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 121px;
+    text-align: center;
+    color: #886788;
+}
+
+.buyblock{
+    position: absolute;
+    width: 1667px;
+    height: 1540px;
+    left: 114px;
+    top: 1303px;
+}
+
+.lineyka{
+    position: absolute;
+    height: 0px;
+    left: 226px;
+    right: 226px;
+    top: 2994px;
+    border: 3px solid #886788;
+}
+
+.dostavka{
+    position: absolute;
+    height: 113px;
+    left: 832px;
+    right: 840px;
+    top: 3044px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 121px;
+    text-align: center;
+    color: #886788;
+}
+
+.mifa{
+    position: absolute;
+    width: 276px;
+    height: 358px;
+    left: 211px;
+    top: 3288px;
+}
+
+.textmifa{
+    position: absolute;
+    height: 52px;
+    left: 211px;
+    right: 1433px;
+    top: 3484px;
+
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.mifapod{
+    position: absolute;
+    height: 89px;
+    left: 236px;
+    right: 1458px;
+    top: 3557px;
+
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+color: #9B9B9B;
+}
+
+.delivery{
+    position: block;
+}
+
+.arrow1{
+    position: absolute;
+    height: 132px;
+    left: 540px;
+    right: 1295.14px;
+    top: 3402.86px;
+}
+
+.zakaz{
+    position: absolute;
+    width: 276px;
+    height: 403px;
+    left: 725px;
+    top: 3288px;
+}
+
+.arrow2{
+    position: absolute;
+    height: 132px;
+    left: 1047px;
+    right: 788.14px;
+    top: 3402.86px;
+}
+
+.ozid{
+    position: absolute;
+    width: 342px;
+    height: 478.58px;
+    left: 1206px;
+    top: 3289.42px;
+}
+
+.arrow3{
+    position: absolute;
+    height: 132px;
+    left: 1568px;
+    right: 267.14px;
+    top: 3402.86px;
+}
+
+.oplata{
+    position: absolute;
+    width: 350px;
+    height: 406px;
+    left: 517px;
+    top: 3867px;
+}
+.arrow4{
+    position: absolute;
+    height: 132px;
+    left: 894px;
+    right: 941.14px;
+    top: 3966.86px;    
+}
+
+.dosvk{
+    position: absolute;
+    width: 350px;
+    height: 378.94px;
+    left: 1053px;
+    top: 3865.06px;
+}
+
+.lineyka2{
+    position: absolute;
+    height: 0px;
+    left: 226px;
+    right: 226px;
+    top: 4379px;
+    border: 3px solid #886788;
+}
+.contacts {
+    position: absolute;
+    width: 1920px;
+    height: 457px;
+    left: 0px;
+    top: 20px;
+}
+.zagolovok{
+    font-size: 96px;
+    position: absolute;
+    height: 113px;
+    left: 827px;
+    right: 835px;
+    top: 4449px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 121px;
+    text-align: center;
+    color: #886788;
+}
+
+.inf
+{
+    position: absolute;
+    height: 40px;
+    left: 205px;
+    right: 1523px;
+    top: 4651px;
+
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.grafik{ 
+    position: absolute;
+    height: 37px;
+    left: 214px;
+    right: 1176px;
+    top: 4709px;
+
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #606060;
+
+}
+
+.instagram{
+    position: absolute;
+    height: 40px;
+    left: 214px;
+    right: 1479px;
+    top: 4764px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #606060;
+
+}
+
+.email {
+    position: absolute;
+    height: 37px;
+    left: 214px;
+    right: 1176px;
+    top: 4819px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #606060;
+
+}
+
+.footres{
+    position: absolute;
+    width: 1920px;
+    height: 770px;
+    left: 0px;
+    top: 5030px;
+}
+
+.backgrounds{
+    position: absolute;
+    height: 770px;
+    left: 0px;
+    right: 0px;
+    top: 5030px;
+    background: #C3B3DB;
+}
+
+.mifa2{
+    position: absolute;
+    height: 143px;
+    left: 889px;
+    right: 888px;
+    top: 5145px;
+}
+.textfoot{ 
+    position: absolute;
+    height: 71px;
+    left: 545px;
+    right: 545px;
+    top: 5354px; 
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #886788;
+    
+}
+
+.glavn{
+    position: absolute;
+    height: 58px;
+    left: 489px;
+    right: 1233px;
+    top: 5493px;
+    background: #BF86AE;
+    border-radius: 51px;
+}
+
+.txtglavn {
+    position: absolute;
+    height: 33px;
+    left: 510px;
+    right: 1277px;
+    top: 5505px;
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.glavn2{
+    position: absolute;
+    height: 58px;
+    left: 737px;
+    right: 985px;
+    top: 5493px;
+    background: #BF86AE;
+    border-radius: 51px;
+}
+
+.txtglavn2{
+    position: absolute;
+    height: 33px;
+    left: 760px;
+    right: 1029px;
+    top: 5505px;
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.glavn3{
+    position: absolute;
+    height: 58px;
+    left: 985px;
+    right: 737px;
+    top: 5493px; 
+    background: #BF86AE;
+    border-radius: 51px;
+}
+
+.txtglavn3{
+    position: absolute;
+    height: 33px;
+    left: 1000px;
+    right: 769px;
+    top: 5505px;
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.glavn4{
+    position: absolute;
+    height: 58px;
+    left: 1233px;
+    right: 489px;
+    top: 5493px;
+    background: #BF86AE;
+    border-radius: 51px;
+}
+
+.txtglavn4{
+    position: absolute;
+    height: 33px;
+    left: 1248px;
+    right: 518px;
+    top: 5505px;
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.data{ 
+    position: absolute;
+    height: 32px;
+    left: 846px;
+    right: 830px;
+    top: 5655px;
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #886788;
+}
+
+.txx{
+    position: absolute;
+    height: 65px;
+    left: 832px;
+    right: 830px;
+    top: 5671px;
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #BF86AE;
+}
